@@ -1,0 +1,27 @@
+{
+  "name": "clock-stream",
+  "description": "Push stream chunks only when a clock pulse function is called",
+  "version": "0.1.0",
+  "engines": { "node": ">=0.10.0" },
+  "dependencies": {
+    "inherits": "2.0.x"
+  },
+  "devDependencies": {
+    "grunt-jasmine-node": "0.1.x",
+    "grunt-contrib-watch": "0.5.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/emac-utd/clock-stream.git"
+  },
+  "homepage": "https://github.com/emac-utd/clock-stream",
+  "author": {
+    "name": "Harrison Massey",
+    "email": "harrisonm@utdallas.edu",
+    "url": "https://github.com/Harrison-M"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "license": "MIT"
+}

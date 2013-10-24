@@ -7,7 +7,7 @@ module.exports = function(pulsesize) {
   this.pulsesize = pulsesize
 }
 
-inherits(module.exports, Duplex)y
+inherits(module.exports, Duplex)
 
 module.exports.prototype._write = function(chunk, enc, next) {
 

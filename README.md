@@ -61,6 +61,8 @@ See also
 
 [Official Stream API docs](http://nodejs.org/api/stream.html)
 
+[Official Buffer API docs](http://nodejs.org/api/buffer.html)
+
 License
 -------
 
